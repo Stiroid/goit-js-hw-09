@@ -26,7 +26,7 @@ function onFormSubmit(event) {
   const amount = Number(event.currentTarget.amount.value);
 
   for (let i = 0; i <= amount; i++) {
-    createPromise(i+1, delay)
+    createPromise(i, delay)
       .then(({ position, delay }) => {
         console.log(
           `✅ Fulfilled promise ${position} in ${delay}ms`
