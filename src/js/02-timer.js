@@ -1,5 +1,5 @@
 import flatpickr from "flatpickr";
-const flatpickr = require("flatpickr");
+
 import "flatpickr/dist/flatpickr.min.css";
 
 const startButton = document.querySelector("button[data-start]")
@@ -38,7 +38,7 @@ const options = {
   },
 };
 
-flatpickr(timePicker, options)
+flatpickr (timePicker, options)
 
 function changeTimerValue() {
     let timer = setInterval(() => {
