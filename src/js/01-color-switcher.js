@@ -19,7 +19,7 @@ const stopChange = () => {
 btnStop.addEventListener('click', stopChange);
 
 const colorChange = () => {
-  if (this.isActive) {
+  if (isActive) {
     return;
   }
   this.intervalId = setInterval(() => {
