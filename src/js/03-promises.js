@@ -39,4 +39,5 @@ function onFormSubmit(event) {
       });
     delay += step;
   }
+  event.currentTarget.reset();
 }
