@@ -39,5 +39,5 @@ function submitForm(event) {
     delay += step;
 }
 
-}
+};
 
